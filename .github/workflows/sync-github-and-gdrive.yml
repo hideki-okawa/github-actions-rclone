@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - run: ls
     - name: rclone
       uses: wei/rclone@v1
       env:
