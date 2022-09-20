@@ -10,4 +10,4 @@ jobs:
       env:
         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
       with:
-        args: sync ./ google_drive:rclone_test
+        args: sync ./rclone_test google_drive:rclone_test
